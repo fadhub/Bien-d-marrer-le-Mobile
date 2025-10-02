@@ -18,7 +18,6 @@ import com.example.hellocounter.R
 fun CompteurSection(modifier: Modifier = Modifier) {
     var count by rememberSaveable { mutableStateOf(0) }
 
-    // Préparer les textes a11y dans le contexte @Composable
     val decrementCd = stringResource(R.string.cd_decrement)
     val incrementCd = stringResource(R.string.cd_increment)
     val counterCd   = stringResource(R.string.cd_counter_value, count)

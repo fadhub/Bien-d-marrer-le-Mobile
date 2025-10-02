@@ -21,7 +21,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MaterialTheme {
-                MainScreen()
+                HelloCounterTheme {
+                    MainScreen()
+                }
             }
         }
     }
